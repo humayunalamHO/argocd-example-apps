@@ -5,7 +5,7 @@ app: custom-nginx-app-10
 name: custom-nginx-app-10
 image:
   repository: somnathmore/custom-nginx:v2
-  pullPolicy: Never
+  pullPolicy: IfNotPresent
 
   computeres:
     limits:
